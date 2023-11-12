@@ -1,0 +1,467 @@
+.section-1 {
+    position: relative;
+    background-image: url(../img/bg-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+
+.text-sect-1 {
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 600px;
+    text-align: center;
+}
+
+.text-sect-1 h1 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.text-sect-1 p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 6.82px;
+}
+
+input {
+    text-align: center;
+    width: 610px;
+    height: 60px;
+    margin-left: 440px;
+    position: relative;
+    padding-left: 36px;
+    text-align: start;
+    margin-top: 431px;
+    margin-bottom: 150px;
+}
+
+::placeholder {
+    color: #999;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    margin-right: 50px;
+    text-align: start;
+}
+
+.sect-1-content>button {
+    content: "";
+    position: relative;
+    border: none;
+    width: 139px;
+    height: 52px;
+    background: #5373FD;
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: 437px;
+    margin-right: 50px;
+    right: 150px;
+}
+
+button svg {
+    margin-right: 12px;
+}
+
+section-1 ul {
+    position: relative;
+
+}
+
+li {
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+}
+
+/* section-1 end */
+
+header {
+    /* content: ""; */
+    width: 100%;
+    height: 84px;
+    background-color: #5373FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-left: 150px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+header ul li {
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* header end */
+
+.section-2 {
+    position: relative;
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    padding-top: 124px;
+}
+
+.sect-2-cont {
+    display: flex;
+    margin-left: 150px;
+}
+
+.sect-2-text {
+    margin-right: 136px;
+}
+
+.sect-2-text h1 {
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.sect-2-text p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    margin-bottom: 32px;
+}
+
+.sect-2-text button {
+    width: 213px;
+    height: 60px;
+    background: #5373FD;
+    color: white;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.sect-2-img {
+    width: 350px;
+    height: 220px;
+}
+
+.sect-2-img img:nth-child(2) {
+    margin-top: 16px;
+    margin-left: 90px;
+}
+
+/* section 2 end */
+
+.section-3 {
+    background: #333;
+    height: 160px;
+    width: 100%;
+    padding-top: 107px;
+}
+
+.sect-3-cont {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.item p {
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.item svg {
+    fill: black;
+    margin-bottom: 4px;
+}
+
+#item-1 svg:hover {
+    fill: #5373FD;
+}
+
+#item-2 svg:hover {
+    fill: #FF6363;
+}
+
+#item-3 svg:hover {
+    fill: #00A2FF;
+}
+
+#item-1 {
+    margin-left: 90px;
+}
+
+#item-3 {
+    margin-right: 90px;
+}
+
+/* .line {
+    width: 100px;
+    height: 1px;
+    background: 1px white;
+    border-radius: 50px;
+} */
+
+/* section-3 end */
+
+.section-4 {
+    position: relative;
+    background-image: url(../img/bg-3.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    padding-top: 124px;
+}
+
+.sect-container {
+    margin-left: 150px;
+    margin-top: 70px;
+    background: rgba(35, 35, 35, 0.90);
+    width: 650px;
+    flex-shrink: 0;
+    padding-top: 64px;
+    padding-left: 32px;
+}
+
+.sect-container p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.sect-container h3 {
+    color: var(--White, #FFF);
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 16px auto;
+}
+
+.sect-container h4 {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    margin-bottom: 24px;
+}
+
+.sect-container button {
+    position: relative;
+    width: 213px;
+    height: 60px;
+    background: var(--Accent, #5373FD);
+    border: none;
+    color: white;
+    margin-bottom: 44px;
+}
+
+.sect-container>svg {
+
+    margin-right: 20px;
+}
+
+/* section-3 end */
+
+.section-5 {
+    position: relative;
+    background-image: url(../img/bg-4.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    padding-top: 124px;
+}
+
+#container-2 {
+    margin-left: 700px;
+}
+
+/* section 4-5 end */
+
+.last-section {
+    position: relative;
+    background-image: url(../img/bg-5.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    padding-top: 124px;
+}
+
+.last-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.last-sect-content {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.last-container {
+    background: var(--Dark-Grey, #333);
+    width: auto;
+    height: 280px;
+    padding-top: 48px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.last-container h2 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.last-sect-text svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 175px;
+}
+
+.last-sect-text p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    text-indent: 30px;
+}
+
+/* last section end */
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.footer-text h4 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.footer-text p {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    margin-bottom: 20px;
+}
+
+.social svg {
+    margin-right: 32px;
+    fill: white;
+}
+
+.social svg:hover {
+    fill: #5373FD;
+}
